@@ -84,7 +84,16 @@ nav a {
 .about-text p {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.about-text a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #121212;
+  color: #e8b6b6;
+  margin: 15px;
+  border-radius: 8px;
 }
 
 .about-image {
