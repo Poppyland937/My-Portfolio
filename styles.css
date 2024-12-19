@@ -192,6 +192,14 @@ nav li a:hover {
   text-align: center;
   font-size: 40px;
 }
+#projects h3 {
+  font-size: 24px;
+}
+#projects p {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
 .project-grid {
   display: flex;
   flex-wrap: wrap;
@@ -215,15 +223,31 @@ nav li a:hover {
 .project-card:hover img {
   transform: scale(1);
 }
-.project-card a {
+.project-card-link {
   text-decoration: underline;
   color: #121212;
   border-radius: 5px;
   padding: 10px 15px;
   margin: 25px 8px;
 }
-.project-card a:hover {
+
+.project-card-link:hover {
   color: #ab7fed;
+}
+
+.project-social {
+  padding: 10px 15px;
+  font-size: 17px;
+  background-color: #121212;
+  color: #e8b6b6;
+  margin: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.project-social:hover {
+  background: #ab7fed;
+  color: #121212;
 }
 
 #contact {
