@@ -47,12 +47,16 @@ nav li a:hover {
   font-size: 2.5rem;
   color: #333;
 }
+#hero p {
+  font-size: 20px;
+  line-height: 28px;
+}
 
 #hero button {
   margin: 10px;
   padding: 10px 20px;
-  background: #e09191;
-  color: #fff;
+  background: #121212;
+  color: #e8b6b6;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -106,6 +110,10 @@ nav li a:hover {
   color: #e8b6b6;
   margin: 15px;
   border-radius: 8px;
+}
+.about-text a:hover {
+  background: #ab7fed;
+  color: #121212;
 }
 
 .about-image {
@@ -245,7 +253,7 @@ button {
 }
 
 button {
-  background: #e09191;
+  background: #121212;
   color: #fff;
   cursor: pointer;
 }
@@ -319,7 +327,7 @@ footer {
 .project-main button {
   margin: 10px;
   padding: 10px 20px;
-  background: #e09191;
+  background: #121212;
   color: #fff;
   border: none;
   border-radius: 5px;
