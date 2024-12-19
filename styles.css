@@ -1,6 +1,7 @@
 header {
   position: sticky;
   top: 0;
+  z-index: 1000;
   background: #121212;
   color: #e8b6b6;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -120,14 +121,34 @@ nav li a:hover {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-right: 100px;
 }
 
 .about-image img {
   max-width: 100%;
   height: auto;
-  border-radius: 80px;
-  margin-right: 170px;
+  border-radius: 20px;
+  margin: 0;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .about-image {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .about-image img {
+    width: 80%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image img {
+    width: 100%;
+  }
 }
 
 #skills {
@@ -294,7 +315,7 @@ footer {
 
 .project-main {
   width: 100%;
-  max-width: 900px;
+  max-width: 1300px;
   background: #e8b6b6;
   border-radius: 8px;
   margin: 20px auto;
