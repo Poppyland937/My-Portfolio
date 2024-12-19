@@ -224,6 +224,9 @@ nav li a:hover {
   text-align: center;
   margin: 20px 0;
 }
+#contact h2 {
+  font-size: 40px;
+}
 
 form {
   display: flex;
