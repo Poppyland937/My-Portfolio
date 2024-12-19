@@ -218,11 +218,8 @@ nav li a:hover {
 .project-card img {
   width: 100%;
   border-radius: 10px;
-  transition: transform, 0.3s, ease-in-out;
 }
-.project-card:hover img {
-  transform: scale(1);
-}
+
 .project-card-link {
   text-decoration: underline;
   color: #121212;
@@ -278,8 +275,14 @@ button {
 
 button {
   background: #121212;
-  color: #fff;
+  color: #e8b6b6;
   cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: #ab7fed;
+  color: #121212;
 }
 footer {
   background: #121212;
@@ -346,13 +349,13 @@ footer {
 }
 
 .pro-gallery img:hover {
-  transform: scale(1.05);
+  transform: scale(3.05);
 }
 .project-main button {
   margin: 10px;
   padding: 10px 20px;
   background: #121212;
-  color: #fff;
+  color: #e8b6b6;
   border: none;
   border-radius: 5px;
   cursor: pointer;
